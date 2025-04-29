@@ -1,4 +1,39 @@
 # IMDB-Project
+
+🎬 IMDb 2024 Data Dashboard
+A data science mini-project to scrape, clean, and visualize IMDb movie data from 2024 using Python, MySQL, and Streamlit.
+
+📌 Project Overview
+This dashboard allows users to explore IMDb movie data from 2024 across multiple genres with interactive filters and visualizations.
+
+✅ Features
+🔝 Top 10 Movies by Rating and Votes
+📊 Genre Distribution
+⏱️ Average Duration by Genre
+📈 Voting Trends by Genre
+🔸 Rating Distribution
+🏆 Top-Rated Movies per Genre
+🥧 Most Popular Genres (by Total Votes)
+🎬 Duration Extremes
+🌡️ Genre-wise Ratings (Heatmap)
+📉 Correlation: Ratings vs Votes
+📁 Files
+
+README.md: Project documentation (this file)
+🛠️ How to Run Locally
+Clone this repo
+Install dependencies:
+pip install -r requirements.txt
+Run the Streamlit app:
+streamlit run app.py
+🔗 Data Source
+IMDb
+👨‍💻 Tech Stack
+Python (Pandas, Seaborn, Matplotlib)
+Selenium (for scraping - not included here)
+MySQL (for data storage)
+Streamlit (for visualization)
+
 Here i have uploaded my IMDB movie filteration and visualisation using Selenium, webdriver for extracting web page from website.
 Then we try to click load more button to show after 50 movies using def function, try & except also.
 Next step to extract the path from the movie page's click on inspect to get the HTML using xpath copy to include in our selenium code.
